@@ -8,7 +8,7 @@ const canvas = document.querySelector("canvas.webgl");
 const loadingManager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader(loadingManager);
 //load minecraft block
-const minecraftBlock = textureLoader.load("/images/musnote.jpg");
+const minecraftBlock = textureLoader.load("images/musnote.jpg");
 minecraftBlock.generateMinmaps = false;
 minecraftBlock.minFilter = THREE.NearestFilter;
 minecraftBlock.magFilter = THREE.NearestFilter;
