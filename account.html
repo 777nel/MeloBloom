@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MeloBloom</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Threejs/3style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="data.js" defer></script>
+		<script src="account.js" defer></script>
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<nav>
+			<div id="note">
+				<a href="index.html"><canvas class="webgl"></canvas></a>
+			</div>
+			<a href="index.html"
+				><div id="title">
+					<b>MELOBLOOM</b>
+				</div></a
+			>
+			<div class="nav-links">
+				<img id="ham" src="images/hamburgers.png" />
+				<a href="goals.html" class="nav-item" id="nav-goals">Our Goals</a>
+				<a href="music.html" class="nav-item" id="nav-music"
+					>Find Your Music Mood Match</a
+				>
+				<a href="game.html" class="nav-item" id="nav-game">Play a Game!</a>
+				<a href="account.html" class="nav-item" id="nav-account">My Music</a>
+				<button class="nav-item" id="nav-mode">Dark Mode</button>
+				<!-- <a href="account.html" class="nav-item" id="nav-account-in">My Music</a> -->
+			</div>
+		</nav>
+		<div id="allSignIn">
+			<div id="startSignIn">Log In:</div>
+			<div class="user">
+				<label for="username">Username: </label>
+				<input type="email" id="username" placeholder="Username" />
+			</div>
+			<div class="password">
+				<label for="userPassword">Password: </label>
+				<input type="text" id="userPassword" placeholder="Password" />
+			</div>
+			<div id="noAccount">
+				Don't have an account yet? <a href="index.html" id="signUp">Sign Up</a>
+			</div>
+			<div id="signInBtn">
+				<button id="signIn">
+					<span>Sign In</span>
+				</button>
+			</div>
+		</div>
+		<div id="recentIntro">
+			<div>Recent Moods and Songs:</div>
+			<div id="signOut"><a href="index.html">Sign Out</a></div>
+		</div>
+		<br />
+		<br />
+		<br />
+		<div id="recent">
+			<div id="recentHappy">
+				<div id="recentHappyMood">Joyful -</div>
+				<div id="recentHappySong">
+					<div><a href="music.html">Dance The Night </a>(Dua Lipa)</div>
+					<br />
+					<div><a href="music.html">Made You Look </a>(Megan Trainor)</div>
+					<br />
+					<div><a href="music.html">Cruel Summer </a>(Taylor Swift)</div>
+				</div>
+			</div>
+			<div id="recentSad">
+				<div id="recentSadMood">Sad -</div>
+				<div id="recentSadSong">
+					<div><a href="music.html">Atlantis </a>(Seafret)</div>
+				</div>
+			</div>
+			<div id="recentCalm">
+				<div id="recentCalmMood">Calm -</div>
+				<div id="recentCalmSong">
+					<div><a href="music.html">Amber </a>(Kepus)</div>
+				</div>
+			</div>
+			<div id="recentHype">
+				<div id="recentHypeMood">Hype -</div>
+				<div id="recentHypeSong">
+					<div>
+						<a href="music.html">HIGHEST IN THE ROOM </a> (Travis Scott)
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="Threejs/three.min.js"></script>
+		<script src="Threejs/3script.js"></script>
+		<script src="init-firebase.js"></script>
+		<script src="onlyonething.js"></script>
+	</body>
+</html>

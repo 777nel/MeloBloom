@@ -4,6 +4,73 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>MeloBloom</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Threejs/3style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="account.js" defer></script>
 	</head>
-	<body></body>
+	<body>
+		<nav>
+			<div id="note">
+				<a href="index.html"><canvas class="webgl"></canvas></a>
+			</div>
+			<a href="index.html"
+				><div id="title">
+					<b>MELOBLOOM</b>
+				</div></a
+			>
+			<div class="nav-links">
+				<img id="ham" src="images/hamburgers.png" />
+				<a href="goals.html" class="nav-item" id="nav-goals">Our Goals</a>
+				<!-- <a href="music.html" class="nav-item" id="nav-music"
+					>Find Your Music Mood Match</a
+				> -->
+				<a href="game.html" class="nav-item" id="nav-game">Play a Game!</a>
+				<a href="account.html" class="nav-item" id="nav-account">My Music</a>
+				<!-- <a href="account.html" class="nav-item" id="nav-account-in">My Music</a> -->
+				<button class="nav-item" id="nav-mode">Dark Mode</button>
+			</div>
+		</nav>
+
+		<div id="home-main">
+			<h1 class="welcome">Welcome to MeloBloom!</h1>
+			<p class="intro">
+				A website designed to help soothe your nerves and destress after a long
+				day of work. Boss annoying you at work? Your partner complaining about
+				your lack of finance? Groupmates complaining about the lack of work
+				done? Well look no further! MeloBloom can solve all of your problems.
+				Designed by Solomon Powell, Aqil Rahim, and Nelson Suarez, MeloBloom
+				offers music catered to your emotions and features our personal rhythm
+				game, Rect (D, A, S, H), to help you cool down after a stressful day. If
+				you want to know more about the logic behind our website, feel free to
+				go check the Our Goals section! Have fun!
+			</p>
+			<br>
+			<br>
+		</div>
+<a href="music.html" class="match-class" id="find-match"
+				>Find Your Music Mood Match
+			</a>
+		</div> 
+		<script src="Threejs/three.min.js"></script>
+		<script src="Threejs/3script.js"></script>
+		<script src="script.js"></script>
+		<script src="init-firebase.js"></script>
+		<script src="main.js"></script>
+	</body>
 </html>
+
+		<!-- <div class="feeling">
+			<div class="intense">
+				<div id="angry">Angry</div>
+				<div id="happy">Happy</div>
+			</div>
+			 <div class="mellow">
+				<div id="sad">Sad</div>
+				<div id="calm">Calm</div>
+			</div> -->

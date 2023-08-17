@@ -1,0 +1,768 @@
+body {
+	background-color: #78c8e6;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	font-size: 70px;
+	font-family: "Concert One", cursive;
+	color: #3c8072;
+	/* -webkit-text-stroke: 0.1px black; */
+}
+
+.intro {
+	font-size: 40px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.goal_heads {
+	display: flex;
+	justify-content: center;
+	font-size: 55px;
+	font-family: "Concert One", cursive;
+	color: #3c8072;
+}
+
+.reasoning {
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 35px;
+}
+.imagery {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#stat {
+	width: 650px !important;
+	height: 500px !important;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #3c8072;
+}
+#therapy {
+	height: 500px !important;
+	width: 600px !important;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #3c8072;
+}
+#game_info {
+	font-size: 40px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#title {
+	font-family: "Concert One", cursive;
+	display: flex;
+	align-self: center;
+	color: #3c8072;
+	/* color: rgb(86, 151, 236); */
+	font-size: 45px;
+	text-decoration: none;
+	margin-top: 25px;
+	-webkit-text-stroke: 0.1px black;
+}
+
+p {
+	font-family: "Concert One", cursive;
+	color: rgb(238, 238, 238);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+nav {
+	display: flex;
+	border: solid 5px #f5f5f5;
+	border-radius: 10px;
+	font-size: 25px;
+	height: 105px;
+}
+.nav-links {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: #f5f5f5;
+	font-family: "Concert One", cursive;
+}
+
+.nav-item {
+	transition-duration: 0.4s;
+}
+
+.match-class {
+	transition-duration: 0.4s;
+}
+
+#find-match {
+	display: flex;
+	justify-content: center;
+	font-size: 90px;
+	color: rgb(37, 179, 171);
+	/* font-family: "Times New Roman"; */
+	font-family: "Concert One", cursive;
+	width: 105%;
+	margin-left: -10px;
+	font-weight: bold;
+	/* border: solid rgb(255, 255, 255); */
+	/* border-width: 3px;
+	border-radius: 5px; */
+}
+#find-match:hover {
+	background-color: #3c6c80;
+	font-size: 100px;
+}
+
+.nav-item:hover {
+	background-color: #3c8072;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #f5f5f5;
+	font-weight: bold;
+}
+
+#ham {
+	display: none;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+}
+#note {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#btndiv {
+	display: flex;
+	justify-content: center;
+}
+
+#btn {
+	background-color: #3a8173;
+	color: #000000;
+	font-family: "Concert One", cursive;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	border-radius: 12px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#btn span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#btn:hover span {
+	padding-right: 25px;
+}
+
+#btn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+#btn:hover {
+	background-color: #f5f5f5;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#game-container {
+	display: flex;
+	justify-content: center;
+}
+
+#stat {
+	width: 100px;
+}
+#therapy {
+	width: 100px;
+}
+.mellow {
+	display: flex;
+	justify-content: space-around;
+}
+#ask {
+	display: flex;
+	justify-content: center;
+}
+.intense {
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav-account {
+	/* display: none; */
+	border: solid;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 3px;
+}
+
+/* #nav-account-in {
+	border: solid;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 3px;
+} */
+
+#happy-list {
+	display: none;
+}
+#sad-list {
+	display: none;
+}
+#calm-list {
+	display: none;
+}
+#angry-list {
+	display: none;
+}
+
+#hype-list {
+	display: none;
+}
+
+#nostalgia-list {
+	display: none;
+}
+
+#feelBtn {
+	background-color: #3a8173;
+	border-width: 3px;
+	border-color: black;
+	color: black;
+	font-family: "Concert One", cursive;
+	margin-top: 100px;
+}
+#feelBtn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#feelBtn span:after {
+	content: "\2193";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#feelBtn:hover span {
+	padding-right: 25px;
+}
+
+#feelBtn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#feelBtn:hover {
+	background-color: #3a8173;
+	border-width: 3px;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#moods {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+/* Mood buttons */
+/* Happy */
+#happy {
+	background-color: #3865a8;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #3865a8;
+}
+#happy span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#happy span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#happy:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#happy:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#happy:hover {
+	background-color: #3865a8;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*sad*/
+#sad {
+	background-color: #bd9fa7;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #bd9fa7;
+}
+#sad span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#sad span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#sad:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#sad:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#sad:hover {
+	background-color: #bd9fa7;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*calm*/
+#calm {
+	background-color: #598868;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #598868;
+}
+#calm span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#calm span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#calm:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#calm:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#calm:hover {
+	background-color: #598868;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*angry*/
+#angry {
+	background-color: #30882c;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #30882c;
+}
+#angry span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#angry span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#angry:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#angry:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#angry:hover {
+	background-color: #30882c;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*hype*/
+#hype {
+	background-color: #202737;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #202737;
+}
+#hype span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#hype span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#hype:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#hype:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#hype:hover {
+	background-color: #202737;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*Nostalgic*/
+#nostalgic {
+	background-color: #0148f8;
+	border-width: 5px;
+	border-radius: 8px;
+	font-size: 40px;
+	font-family: "Concert One", cursive;
+	border-color: #0148f8;
+}
+#nostalgic span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#nostalgic span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#nostalgic:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#nostalgic:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#nostalgic:hover {
+	background-color: #0148f8;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#startSignIn {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+#signIn {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	border-radius: 10p;
+	background-color: #3c8072;
+	border-width: 5px;
+	border-radius: 8px;
+	font-family: "serif", Didot;
+	border-color: #3c8072;
+	padding: 10px;
+}
+/*Sign In*/
+#signIn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#signIn span:after {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#signInstalgic:hover span {
+	padding-right: 25px;
+	color: white;
+}
+
+#signIn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+#signIn:hover {
+	background-color: #3c8072;
+	border-width: 3px;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#signInBtn {
+	display: flex;
+	justify-content: center;
+}
+.password {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.user {
+	margin-bottom: 20px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+#username {
+	margin-left: 10px;
+	border-radius: 5px;
+}
+#userPassword {
+	border-radius: 5px;
+	margin-left: 10px;
+}
+#signUp {
+	margin-left: 5px;
+}
+#noAccount {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+#recent {
+	display: none;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#recentHappy {
+	border: 5px solid #3c8072;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	margin: 25px;
+}
+#recentHappyMood {
+	font-size: 25px;
+}
+#recentHappySong {
+	margin-left: 30px;
+	font-size: 25px;
+}
+
+#recentSad {
+	border: 5px solid #3c8072;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	margin: 25px;
+}
+#recentSadMood {
+	font-size: 25px;
+}
+#recentSadSong {
+	margin-left: 30px;
+	font-size: 25px;
+}
+
+#recentCalm {
+	border: 5px solid #3c8072;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	margin: 25px;
+}
+#recentCalmMood {
+	font-size: 25px;
+}
+#recentCalmSong {
+	margin-left: 30px;
+	font-size: 25px;
+}
+
+#recentHype {
+	border: 5px solid #3c8072;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	margin: 25px;
+}
+#recentHypeMood {
+	font-size: 25px;
+}
+#recentHypeSong {
+	margin-left: 30px;
+	font-size: 25px;
+}
+#recentIntro {
+	display: none;
+	margin: 30px;
+	font-size: 50px;
+	justify-content: space-between;
+	font-family: "Concert One", cursive;
+	color: white;
+}
+#signOut {
+	color: black;
+	display: flex;
+	font-size: 20px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 5px;
+	align-items: center;
+}
+#signOut:hover {
+	background-color: white;
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+
+#nav-mode {
+	background-color: #3f7268;
+	color: #000000;
+	font-family: "Concert One", cursive;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 12px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#nav-mode:hover {
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#contacts {
+	padding: 20px;
+	font-size: 30px;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+	/* font-family: "Concert One", cursive; */
+	font-family: "serif", Didot;
+}
+#contactsBox {
+	border-top: solid #3f7268;
+}
+#contactUs {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	/* font-family: "Concert One", cursive; */
+}

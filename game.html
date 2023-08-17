@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MeloBloom</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Threejs/3style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="data.js" defer></script>
+		<script src="account.js" defer></script>
+		<script src="main.js" defer></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
+			integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+			defer
+		></script>
+	</head>
+	<body>
+		<nav>
+			<div id="note">
+				<a href="index.html"><canvas class="webgl"></canvas></a>
+			</div>
+			<a href="index.html"
+				><div id="title">
+					<b>MELOBLOOM</b>
+				</div></a
+			>
+			<div class="nav-links">
+				<img id="ham" src="images/hamburgers.png" />
+				<a href="goals.html" class="nav-item" id="nav-goals">Our Goals</a>
+				<a href="music.html" class="nav-item" id="nav-music"
+					>Find Your Music Mood Match</a
+				>
+				<!-- <a href="game.html" class="nav-item" id="nav-game">Play a Game!</a> -->
+				<a href="account.html" class="nav-item" id="nav-account">My Music</a>
+				<button class="nav-item" id="nav-mode">Dark Mode</button>
+				<!-- <a href="account.html" class="nav-item" id="nav-account-in">My Music</a> -->
+			</div>
+		</nav>
+		<p id="game_info">
+			Here is our custom made p5 game, Rect (D,A,S,H). A rhythm based game
+			without the rhythm! Rect (D,A,S,H) is designed to help soothe your mind
+			after a long day of stressing. It has been proven that gaming can
+			stimulate feel good hormones such as dopamine, oxytocin, and seratonin.
+			Rect (D,A,S,H) takes all the fun parts of gaming and leaves out the bad,
+			like toxicity, and frustration from not being able to complete a level.
+			Don't worry about messing up, keep trying until you get it! P.S: Try
+			playing along with your recommended mood playlist!
+		</p>
+		<div id="btndiv">
+			<button onclick="startGame()" id="btn" style="vertical-align: middle">
+				<span>TRY IT OUT!</span>
+			</button>
+		</div>
+		<br />
+		<br />
+		<div id="game-container"></div>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script> -->
+
+		<script src="game.js"></script>
+		<script src="script.js"></script>
+		<script src="Threejs/three.min.js"></script>
+		<script src="Threejs/3script.js"></script>
+	</body>
+</html>

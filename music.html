@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MeloBloom</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Threejs/3style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="account.js" defer></script>
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<nav>
+			<div id="note">
+				<a href="index.html"><canvas class="webgl"></canvas></a>
+			</div>
+			<a href="index.html"
+				><div id="title">
+					<b>MELOBLOOM</b>
+				</div></a
+			>
+			<div class="nav-links">
+				<img id="ham" src="images/hamburgers.png" />
+				<a href="goals.html" class="nav-item" id="nav-goals">Our Goals</a>
+				<a href="music.html" class="nav-item" id="nav-music"
+					>Find Your Music Mood Match</a
+				>
+				<a href="game.html" class="nav-item" id="nav-game">Play a Game!</a>
+				<a href="account.html" class="nav-item" id="nav-account">My Music</a>
+				<button class="nav-item" id="nav-mode">Dark Mode</button>
+			</div>
+		</nav>
+		<div id="music-feel">
+			<button id="feelBtn">
+				<span>Which Music Mood would you like?</span>
+			</button>
+		</div>
+		<br />
+		<br />
+		<div id="moods">
+			<button id="happy">
+				<span>Joyful</span>
+			</button>
+			<br />
+
+			<button id="sad">
+				<span>Sad</span>
+			</button>
+			<br />
+
+			<button id="calm">
+				<span>Calm</span>
+			</button>
+			<br />
+			<button id="angry">
+				<span>Upset</span>
+			</button>
+			<br />
+			<button id="hype">
+				<span>Hype</span>
+			</button>
+			<br />
+			<button id="nostalgic">
+				<span>Nostalgic</span>
+			</button>
+		</div>
+		<div class="playlists">
+			<div id="happy-list">
+				<iframe
+					style="border-radius: 12px"
+					src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec7aLTmlC?utm_source=generator"
+					width="50%"
+					height="552"
+					frameborder="0"
+					allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy"
+				></iframe>
+			</div>
+			<div id="sad-list">
+				<iframe
+					style="border-radius: 12px"
+					src="https://open.spotify.com/embed/playlist/37i9dQZF1DX7qK8ma5wgG1?utm_source=generator"
+					width="50%"
+					height="552"
+					frameborder="0"
+					allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy"
+				></iframe>
+			</div>
+			<div id="calm-list">
+				<iframe
+					style="border-radius: 12px"
+					src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1s9knjP51Oa?utm_source=generator"
+					width="50%"
+					height="552"
+					frameborder="0"
+					allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy"
+				></iframe>
+			</div>
+			<div id="angry-list">
+				<iframe
+					style="border-radius: 12px"
+					src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdfpzpMlZqi7?utm_source=generator"
+					width="50%"
+					height="552"
+					frameborder="0"
+					allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy"
+				></iframe>
+			</div>
+			<div id="hype-list">
+				<iframe
+					style="border-radius: 12px"
+					src="https://open.spotify.com/embed/playlist/37i9dQZF1DX76Wlfdnj7AP?utm_source=generator"
+					width="50%"
+					height="552"
+					frameborder="0"
+					allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+					loading="lazy"
+				></iframe>
+				<div id="nostalgia-list">
+					<iframe
+						style="border-radius: 12px"
+						src="https://open.spotify.com/embed/playlist/37i9dQZF1DXanDkFGa4syx?utm_source=generator"
+						width="50%"
+						height="552"
+						frameborder="0"
+						allowfullscreen=""
+						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+						loading="lazy"
+					></iframe>
+				</div>
+			</div>
+		</div>
+		<script src="Threejs/three.min.js"></script>
+		<script src="Threejs/3script.js"></script>
+		<script src="script.js"></script>
+		<script src="init-firebase.js"></script>
+	</body>
+</html>
